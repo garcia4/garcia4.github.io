@@ -1,0 +1,166 @@
+@font-face {
+     font-family: pirulen;
+    src: url(Pirulen/pirulen.ttf); 
+	}
+
+@font-face {
+     font-family: Quicksand;
+    src: url(Quicksand/Quicksand_Book.otf); 
+	}
+
+
+body { 
+	/*background: linear-gradient(to right, #66a3ff 0%, #e6f0ff 100%);*/
+	
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;}
+
+
+.header1{
+		background:linear-gradient(to right, green 0%,  #5cd65c 100%) ;
+		font-family: pirulen;
+		border:thin black solid;
+		margin-bottom:5px;
+		width:99%;
+		margin-right: auto;
+		margin-left:auto;
+		border-radius:10px;
+		padding-top:10px;
+		padding-bottom:10px;
+		}
+		
+h1, h2 {text-align: center;}
+  
+h2 {font-size:20px;}
+
+
+/*home .img1=logo  #colright1=Slides */
+.img1{
+	border:thin blue solid;
+	 float:right;
+	 border-radius: 5px;
+	 
+	 }
+	 
+#colright1{
+	float:right;
+	margin-top:300px;
+	
+	 }
+	 
+
+
+
+
+
+
+
+
+
+
+
+	 
+	 
+	 
+/*nav */
+nav ul{color:black;
+	clear:both;
+	font-weight:bold;
+	font-family: pirulen;
+	font-size: 14px;
+	text-align:center;
+	list-style-type: none;
+	/*border:thin green solid;*/
+    padding: 10px;
+    border-radius: 10px;
+	width:20%;
+	line-height: 4;
+	margin-left:10px;
+	float:left;
+	margin-bottom:20px;
+	
+}
+
+
+
+
+
+article{
+	text-align:justify;
+	 border:thin black solid;
+		float:left;
+		width:50%; 
+		margin-left:10px;
+		margin-bottom:8px;
+		margin-top:10px;
+		padding:10px;
+		border-radius: 10px;
+		line-height:1.4;
+		}
+		
+		
+footer{color:white;
+	clear:both;
+	border-top:solid thin black;
+	text-align:center;
+	
+	
+}		
+
+		
+ /*a:link, a:visited {
+	background:linear-gradient(to left, green 0%,  #5cd65c 100%);
+    color: black;
+	border:thin black solid;
+	padding-bottom:0px;
+	margin-left:3.1em;
+	margin-right:3.1em;
+	padding-top:0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:10px;
+	display:block;
+	margin-top:20px;
+	 margin-bottom:25px;
+	  
+	
+
+}*/
+/*a:visited {
+	
+    color: black;
+	border:thin black solid;
+	padding-bottom:0px;
+	margin-left:3.1em;
+	margin-right:3.1em;
+	padding-top:0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:10px;
+	display:block;
+	margin-top:20px;
+	 margin-bottom:25px;
+}*/
+
+a:link {
+	
+    color:white;
+	
+
+}
+a:visited {
+	
+    color:black;
+	
+
+}
+	
+	  
+
+
+a:hover{color:red;}
+a:active {
+    color:yellow;
+}		
+		
